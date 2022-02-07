@@ -1,0 +1,40 @@
+decorator/pageFactoryUtils/IElement.java
+ decorator.pageFactoryUtils.IElement
+pages/MainPage.java
+ pages.MainPage
+utils/TestNGListener.java
+ utils.TestNGListener
+decorator/Button.java
+ decorator.Button
+decorator/pageFactoryUtils/WrapperFactory.java
+ decorator.pageFactoryUtils.WrapperFactory
+model/RozetkaFilter.java
+ model.RozetkaFilter
+decorator/CheckBox.java
+ decorator.CheckBox
+utils/PropertiesReader.java
+ utils.PropertiesReader
+pages/SearchResultsPage.java
+ pages.SearchResultsPage
+decorator/TextInput.java
+ decorator.TextInput
+decorator/pageFactoryUtils/LocatingCustomElementListHandler.java
+ decorator.pageFactoryUtils.LocatingCustomElementListHandler
+pages/businessobject/SearchResultsPageBO.java
+ pages.businessobject.SearchResultsPageBO
+pages/BasePage.java
+ pages.BasePage
+utils/WebDriverSingleton.java
+ utils.WebDriverSingleton
+utils/JaxbReader.java
+ utils.JaxbReader
+decorator/pageFactoryUtils/CustomFieldDecorator.java
+ decorator.pageFactoryUtils.CustomFieldDecorator
+pages/BucketPage.java
+ pages.BucketPage
+decorator/ElementDecorator.java
+ decorator.ElementDecorator
+pages/businessobject/Verifier.java
+ pages.businessobject.Verifier
+model/RozetkaFilters.java
+ model.RozetkaFilters

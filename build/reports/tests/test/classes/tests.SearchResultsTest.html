@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class tests.SearchResultsTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class tests.SearchResultsTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/tests.html">tests</a> &gt; SearchResultsTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">11.055s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+<li>
+<a href="#tab2">Standard error</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">verifyPriceOfSearchedCommodity2</td>
+<td class="success">11.055s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>2022-02-07 17:44:33 INFO [WebDriverSingleton]:[27] -&gt; WebDriver is created
+2022-02-07 17:44:37 INFO [MainPage]:[27] -&gt; Search field is filled by Laptop
+2022-02-07 17:44:39 INFO [Button]:[30] -&gt; Clicked by 'safeclick' on first time.
+2022-02-07 17:44:39 INFO [MainPage]:[33] -&gt; Search button is clicked
+2022-02-07 17:44:40 INFO [SearchResultsPage]:[27] -&gt; Brand 'Lenovo' was selected.
+2022-02-07 17:44:46 INFO [SearchResultsPage]:[36] -&gt; Checkbox 'lenovo/' was selected.
+2022-02-07 17:44:46 INFO [SearchResultsPage]:[45] -&gt; Sort option was selected.
+2022-02-07 17:44:46 INFO [Button]:[30] -&gt; Clicked by 'safeclick' on first time.
+2022-02-07 17:44:46 INFO [SearchResultsPage]:[51] -&gt; First element's bucket is clicked.
+2022-02-07 17:44:47 INFO [Button]:[30] -&gt; Clicked by 'safeclick' on first time.
+2022-02-07 17:44:47 INFO [BucketPage]:[17] -&gt; Bucket window is opened.
+2022-02-07 17:44:48 INFO [Verifier]:[22] -&gt; Enough money to pay. Price 24999 is less than 50000.  Checked with SoftAssert
+2022-02-07 17:44:48 INFO [Verifier]:[14] -&gt; Enough money to pay. Price 24999 is less than 50000
+</pre>
+</span>
+</div>
+<div id="tab2" class="tab">
+<h2>Standard error</h2>
+<span class="code">
+<pre>1644248665372	geckodriver	INFO	Listening on 127.0.0.1:29499
+1644248666371	mozrunner::runner	INFO	Running command: &quot;C:\\Program Files\\Mozilla Firefox\\firefox.exe&quot; &quot;--marionette&quot; &quot;-no-remote&quot; &quot;-profile&quot; &quot;C:\\Users\\38093\\AppData\\Local\\Temp\\rust_mozprofile0IB4Qt&quot;
+1644248667766	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: &quot;get: No settings file exists, new profile?&quot; (new NotFoundError(&quot;Could not open the file at C:\\Users\\38093\\AppData\\Local\\Temp\\rust_mozprofile0IB4Qt\\search.json.mozlz4&quot;, (void 0)))
+1644248672848	Marionette	INFO	Listening on port 58616
+1644248673342	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+фев 07, 2022 5:44:33 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+console.warn: LoginRecipes: &quot;getRecipes: falling back to a synchronous message for:&quot; &quot;https://rozetka.com.ua&quot;
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: &quot;Invalid autocomplete selectedIndex&quot; {file: &quot;resource://gre/actors/AutoCompleteChild.jsm&quot; line: 125}]'[JavaScript Error: &quot;Invalid autocomplete selectedIndex&quot; {file: &quot;resource://gre/actors/AutoCompleteChild.jsm&quot; line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+1644248688654	Marionette	INFO	Stopped listening on port 58616
+[Parent 18380, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+JavaScript error: resource://devtools/client/jsonview/Sniffer.jsm, line 56: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIChannel.contentType]
+[Parent 18380, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 6.8</a> at 07.02.2022 17:44:50</p>
+</div>
+</div>
+</body>
+</html>
