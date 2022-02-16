@@ -40,12 +40,5 @@ public class Button extends ElementDecorator {
         jse.executeScript("arguments[0].click()", element);
     }
 
-    public void clickWithFluentWaiter() {
-        new FluentWait<>(getDriver())
-                .withTimeout(PropertiesReader.getFluentWaitValue(), TimeUnit.SECONDS)
-                .pollingEvery(PropertiesReader.getFluentPollValue(), TimeUnit.MILLISECONDS)
-                .ignoring(NoSuchElementException.class);
-        element.click();
-    }
 
 }

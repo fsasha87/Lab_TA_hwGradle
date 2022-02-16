@@ -23,7 +23,7 @@
 <tr>
 <td>
 <div class="infoBox" id="tests">
-<div class="counter">1</div>
+<div class="counter">7</div>
 <p>tests</p>
 </div>
 </td>
@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">11.055s</div>
+<div class="counter">1m3.74s</div>
 <p>duration</p>
 </div>
 </td>
@@ -82,7 +82,37 @@
 </thead>
 <tr>
 <td class="success">verifyPriceOfSearchedCommodity2</td>
-<td class="success">11.055s</td>
+<td class="success">8.015s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">verifyPriceOfSearchedCommodityWithParams[0](Смартфоны, Xiaomi, 50000)</td>
+<td class="success">8.023s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">verifyPriceOfSearchedCommodity[0](Автошины, Nokian, 50000)</td>
+<td class="success">9.455s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">verifyPriceOfSearchedCommodity[0](Ванны, Ravak, 50000)</td>
+<td class="success">9.790s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">verifyPriceOfSearchedCommodity[0](Телевизоры, Samsung, 50000)</td>
+<td class="success">9.100s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">verifyPriceOfSearchedCommodity[2](Ноутбуки, HP, 50000)</td>
+<td class="success">10.673s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">verifyPriceOfSearchedCommodity[3](Холодильник, Bosch, 50000)</td>
+<td class="success">8.684s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -90,41 +120,258 @@
 <div id="tab1" class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre>2022-02-07 17:44:33 INFO [WebDriverSingleton]:[27] -&gt; WebDriver is created
-2022-02-07 17:44:37 INFO [MainPage]:[27] -&gt; Search field is filled by Laptop
-2022-02-07 17:44:39 INFO [Button]:[30] -&gt; Clicked by 'safeclick' on first time.
-2022-02-07 17:44:39 INFO [MainPage]:[33] -&gt; Search button is clicked
-2022-02-07 17:44:40 INFO [SearchResultsPage]:[27] -&gt; Brand 'Lenovo' was selected.
-2022-02-07 17:44:46 INFO [SearchResultsPage]:[36] -&gt; Checkbox 'lenovo/' was selected.
-2022-02-07 17:44:46 INFO [SearchResultsPage]:[45] -&gt; Sort option was selected.
-2022-02-07 17:44:46 INFO [Button]:[30] -&gt; Clicked by 'safeclick' on first time.
-2022-02-07 17:44:46 INFO [SearchResultsPage]:[51] -&gt; First element's bucket is clicked.
-2022-02-07 17:44:47 INFO [Button]:[30] -&gt; Clicked by 'safeclick' on first time.
-2022-02-07 17:44:47 INFO [BucketPage]:[17] -&gt; Bucket window is opened.
-2022-02-07 17:44:48 INFO [Verifier]:[22] -&gt; Enough money to pay. Price 24999 is less than 50000.  Checked with SoftAssert
-2022-02-07 17:44:48 INFO [Verifier]:[14] -&gt; Enough money to pay. Price 24999 is less than 50000
+<pre>2022-02-16 18:10:39 INFO [WebDriverSingleton]:[27] -&gt; WebDriver is created
+2022-02-16 18:10:39 INFO [WebDriverSingleton]:[27] -&gt; WebDriver is created
+2022-02-16 18:10:39 INFO [WebDriverSingleton]:[27] -&gt; WebDriver is created
+2022-02-16 18:10:47 INFO [MainPage]:[27] -&gt; Search field is filled by Ванны
+2022-02-16 18:10:48 INFO [Button]:[30] -&gt; Clicked by 'safeclick' on first time.
+2022-02-16 18:10:48 INFO [MainPage]:[33] -&gt; Search button is clicked
+2022-02-16 18:10:50 INFO [SearchResultsPage]:[27] -&gt; Brand 'Ravak' was selected.
+2022-02-16 18:10:51 INFO [MainPage]:[27] -&gt; Search field is filled by Автошины
+2022-02-16 18:10:52 INFO [Button]:[30] -&gt; Clicked by 'safeclick' on first time.
+2022-02-16 18:10:52 INFO [MainPage]:[33] -&gt; Search button is clicked
+2022-02-16 18:10:54 INFO [SearchResultsPage]:[27] -&gt; Brand 'Nokian' was selected.
+2022-02-16 18:10:55 INFO [SearchResultsPage]:[36] -&gt; Checkbox 'ravak/' was selected.
+2022-02-16 18:10:55 INFO [MainPage]:[27] -&gt; Search field is filled by Телевизоры
+2022-02-16 18:10:55 INFO [SearchResultsPage]:[45] -&gt; Sort option was selected.
+2022-02-16 18:10:56 INFO [Button]:[30] -&gt; Clicked by 'safeclick' on first time.
+2022-02-16 18:10:56 INFO [SearchResultsPage]:[51] -&gt; First element's bucket is clicked.
+2022-02-16 18:10:56 INFO [Button]:[30] -&gt; Clicked by 'safeclick' on first time.
+2022-02-16 18:10:56 INFO [BucketPage]:[17] -&gt; Bucket window is opened.
+2022-02-16 18:10:57 INFO [Verifier]:[22] -&gt; Enough money to pay. Price 4399 is less than 50000.  Checked with SoftAssert
+2022-02-16 18:10:57 INFO [Verifier]:[14] -&gt; Enough money to pay. Price 4399 is less than 50000
+2022-02-16 18:10:57 INFO [Button]:[30] -&gt; Clicked by 'safeclick' on first time.
+2022-02-16 18:10:57 INFO [MainPage]:[33] -&gt; Search button is clicked
+2022-02-16 18:10:58 INFO [SearchResultsPage]:[27] -&gt; Brand 'Samsung' was selected.
+2022-02-16 18:10:59 INFO [SearchResultsPage]:[36] -&gt; Checkbox 'nokian/' was selected.
+2022-02-16 18:10:59 INFO [SearchResultsPage]:[45] -&gt; Sort option was selected.
+2022-02-16 18:11:00 INFO [Button]:[30] -&gt; Clicked by 'safeclick' on first time.
+2022-02-16 18:11:00 INFO [SearchResultsPage]:[51] -&gt; First element's bucket is clicked.
+2022-02-16 18:11:00 INFO [Button]:[30] -&gt; Clicked by 'safeclick' on first time.
+2022-02-16 18:11:00 INFO [BucketPage]:[17] -&gt; Bucket window is opened.
+2022-02-16 18:11:00 INFO [WebDriverSingleton]:[27] -&gt; WebDriver is created
+2022-02-16 18:11:00 INFO [Verifier]:[22] -&gt; Enough money to pay. Price 842 is less than 50000.  Checked with SoftAssert
+2022-02-16 18:11:00 INFO [Verifier]:[14] -&gt; Enough money to pay. Price 842 is less than 50000
+2022-02-16 18:11:02 INFO [MainPage]:[27] -&gt; Search field is filled by Ноутбуки
+2022-02-16 18:11:03 INFO [SearchResultsPage]:[36] -&gt; Checkbox 'samsung/' was selected.
+2022-02-16 18:11:03 INFO [SearchResultsPage]:[45] -&gt; Sort option was selected.
+2022-02-16 18:11:04 INFO [WebDriverSingleton]:[27] -&gt; WebDriver is created
+2022-02-16 18:11:04 INFO [Button]:[30] -&gt; Clicked by 'safeclick' on first time.
+2022-02-16 18:11:04 INFO [SearchResultsPage]:[51] -&gt; First element's bucket is clicked.
+2022-02-16 18:11:04 INFO [Button]:[30] -&gt; Clicked by 'safeclick' on first time.
+2022-02-16 18:11:04 INFO [BucketPage]:[17] -&gt; Bucket window is opened.
+2022-02-16 18:11:04 INFO [Verifier]:[22] -&gt; Enough money to pay. Price 41999 is less than 50000.  Checked with SoftAssert
+2022-02-16 18:11:04 INFO [Verifier]:[14] -&gt; Enough money to pay. Price 41999 is less than 50000
+2022-02-16 18:11:04 INFO [Button]:[30] -&gt; Clicked by 'safeclick' on first time.
+2022-02-16 18:11:04 INFO [MainPage]:[33] -&gt; Search button is clicked
+2022-02-16 18:11:06 INFO [MainPage]:[27] -&gt; Search field is filled by Холодильник
+2022-02-16 18:11:06 INFO [Button]:[30] -&gt; Clicked by 'safeclick' on first time.
+2022-02-16 18:11:06 INFO [MainPage]:[33] -&gt; Search button is clicked
+2022-02-16 18:11:06 INFO [SearchResultsPage]:[27] -&gt; Brand 'HP' was selected.
+2022-02-16 18:11:08 INFO [SearchResultsPage]:[27] -&gt; Brand 'Bosch' was selected.
+2022-02-16 18:11:12 INFO [SearchResultsPage]:[36] -&gt; Checkbox 'hp-hewlett-packard/' was selected.
+2022-02-16 18:11:12 INFO [SearchResultsPage]:[45] -&gt; Sort option was selected.
+2022-02-16 18:11:12 INFO [Button]:[30] -&gt; Clicked by 'safeclick' on first time.
+2022-02-16 18:11:12 INFO [SearchResultsPage]:[51] -&gt; First element's bucket is clicked.
+2022-02-16 18:11:12 INFO [Button]:[30] -&gt; Clicked by 'safeclick' on first time.
+2022-02-16 18:11:12 INFO [BucketPage]:[17] -&gt; Bucket window is opened.
+2022-02-16 18:11:12 INFO [Verifier]:[22] -&gt; Enough money to pay. Price 24999 is less than 50000.  Checked with SoftAssert
+2022-02-16 18:11:13 INFO [Verifier]:[14] -&gt; Enough money to pay. Price 24999 is less than 50000
+2022-02-16 18:11:13 INFO [SearchResultsPage]:[36] -&gt; Checkbox 'bosch/' was selected.
+2022-02-16 18:11:13 INFO [SearchResultsPage]:[45] -&gt; Sort option was selected.
+2022-02-16 18:11:14 INFO [Button]:[30] -&gt; Clicked by 'safeclick' on first time.
+2022-02-16 18:11:14 INFO [SearchResultsPage]:[51] -&gt; First element's bucket is clicked.
+2022-02-16 18:11:14 INFO [Button]:[30] -&gt; Clicked by 'safeclick' on first time.
+2022-02-16 18:11:14 INFO [BucketPage]:[17] -&gt; Bucket window is opened.
+2022-02-16 18:11:14 INFO [Verifier]:[22] -&gt; Enough money to pay. Price 12999 is less than 50000.  Checked with SoftAssert
+2022-02-16 18:11:14 INFO [Verifier]:[14] -&gt; Enough money to pay. Price 12999 is less than 50000
+2022-02-16 18:11:17 INFO [WebDriverSingleton]:[27] -&gt; WebDriver is created
+2022-02-16 18:11:37 INFO [MainPage]:[27] -&gt; Search field is filled by Смартфоны
+2022-02-16 18:11:38 INFO [Button]:[30] -&gt; Clicked by 'safeclick' on first time.
+2022-02-16 18:11:38 INFO [MainPage]:[33] -&gt; Search button is clicked
+2022-02-16 18:11:39 INFO [SearchResultsPage]:[27] -&gt; Brand 'Xiaomi' was selected.
+2022-02-16 18:11:44 INFO [SearchResultsPage]:[36] -&gt; Checkbox 'xiaomi/' was selected.
+2022-02-16 18:11:44 INFO [SearchResultsPage]:[45] -&gt; Sort option was selected.
+2022-02-16 18:11:45 INFO [Button]:[30] -&gt; Clicked by 'safeclick' on first time.
+2022-02-16 18:11:45 INFO [SearchResultsPage]:[51] -&gt; First element's bucket is clicked.
+2022-02-16 18:11:45 INFO [Button]:[30] -&gt; Clicked by 'safeclick' on first time.
+2022-02-16 18:11:45 INFO [BucketPage]:[17] -&gt; Bucket window is opened.
+2022-02-16 18:11:45 INFO [Verifier]:[22] -&gt; Enough money to pay. Price 9999 is less than 50000.  Checked with SoftAssert
+2022-02-16 18:11:45 INFO [Verifier]:[14] -&gt; Enough money to pay. Price 9999 is less than 50000
+2022-02-16 18:11:48 INFO [WebDriverSingleton]:[27] -&gt; WebDriver is created
+2022-02-16 18:11:49 INFO [MainPage]:[27] -&gt; Search field is filled by Laptop
+2022-02-16 18:11:50 INFO [Button]:[30] -&gt; Clicked by 'safeclick' on first time.
+2022-02-16 18:11:50 INFO [MainPage]:[33] -&gt; Search button is clicked
+2022-02-16 18:11:51 INFO [SearchResultsPage]:[27] -&gt; Brand 'Lenovo' was selected.
+2022-02-16 18:11:56 INFO [SearchResultsPage]:[36] -&gt; Checkbox 'lenovo/' was selected.
+2022-02-16 18:11:56 INFO [SearchResultsPage]:[45] -&gt; Sort option was selected.
+2022-02-16 18:11:57 INFO [Button]:[30] -&gt; Clicked by 'safeclick' on first time.
+2022-02-16 18:11:57 INFO [SearchResultsPage]:[51] -&gt; First element's bucket is clicked.
+2022-02-16 18:11:57 INFO [Button]:[30] -&gt; Clicked by 'safeclick' on first time.
+2022-02-16 18:11:57 INFO [BucketPage]:[17] -&gt; Bucket window is opened.
+2022-02-16 18:11:57 INFO [Verifier]:[22] -&gt; Enough money to pay. Price 24999 is less than 50000.  Checked with SoftAssert
+2022-02-16 18:11:57 INFO [Verifier]:[14] -&gt; Enough money to pay. Price 24999 is less than 50000
 </pre>
 </span>
 </div>
 <div id="tab2" class="tab">
 <h2>Standard error</h2>
 <span class="code">
-<pre>1644248665372	geckodriver	INFO	Listening on 127.0.0.1:29499
-1644248666371	mozrunner::runner	INFO	Running command: &quot;C:\\Program Files\\Mozilla Firefox\\firefox.exe&quot; &quot;--marionette&quot; &quot;-no-remote&quot; &quot;-profile&quot; &quot;C:\\Users\\38093\\AppData\\Local\\Temp\\rust_mozprofile0IB4Qt&quot;
-1644248667766	Marionette	INFO	Marionette enabled
-console.warn: SearchSettings: &quot;get: No settings file exists, new profile?&quot; (new NotFoundError(&quot;Could not open the file at C:\\Users\\38093\\AppData\\Local\\Temp\\rust_mozprofile0IB4Qt\\search.json.mozlz4&quot;, (void 0)))
-1644248672848	Marionette	INFO	Listening on port 58616
-1644248673342	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-фев 07, 2022 5:44:33 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+<pre>1645027836707	geckodriver	INFO	Listening on 127.0.0.1:8752
+1645027836708	geckodriver	INFO	Listening on 127.0.0.1:47326
+1645027836710	geckodriver	INFO	Listening on 127.0.0.1:14223
+1645027837397	mozrunner::runner	INFO	Running command: &quot;C:\\Program Files\\Mozilla Firefox\\firefox.exe&quot; &quot;--marionette&quot; &quot;-no-remote&quot; &quot;-profile&quot; &quot;C:\\Windows\\TEMP\\rust_mozprofileJYxQUQ&quot;
+1645027837397	mozrunner::runner	INFO	Running command: &quot;C:\\Program Files\\Mozilla Firefox\\firefox.exe&quot; &quot;--marionette&quot; &quot;-no-remote&quot; &quot;-profile&quot; &quot;C:\\Windows\\TEMP\\rust_mozprofilewMIDFG&quot;
+1645027837397	mozrunner::runner	INFO	Running command: &quot;C:\\Program Files\\Mozilla Firefox\\firefox.exe&quot; &quot;--marionette&quot; &quot;-no-remote&quot; &quot;-profile&quot; &quot;C:\\Windows\\TEMP\\rust_mozprofiles2BQPw&quot;
+1645027837765	Marionette	INFO	Marionette enabled
+1645027837765	Marionette	INFO	Marionette enabled
+1645027837765	Marionette	INFO	Marionette enabled
+[GFX1-]: RcANGLE(no compositor window)
+[GFX1-]: Failed to connect WebRenderBridgeChild.
+[GFX1-]: Fallback WR to SW-WR + D3D11
+[GFX1-]: RcANGLE(no compositor window)
+[GFX1-]: RcANGLE(no compositor window)
+[GFX1-]: Failed to connect WebRenderBridgeChild.
+[GFX1-]: Failed to connect WebRenderBridgeChild.
+[GFX1-]: Fallback WR to SW-WR + D3D11
+[GFX1-]: Fallback WR to SW-WR + D3D11
+[GFX1-]: [D3D11] create swap chain failed: 0x887a0022, 0
+[GFX1-]: Failed to initialize CompositorD3D11 for SWGL: FEATURE_FAILURE_D3D11_SWAP_CHAIN
+[GFX1-]: [D3D11] create swap chain failed: 0x887a0022, 0
+[GFX1-]: [D3D11] create swap chain failed: 0x887a0022, 0
+[GFX1-]: Failed to initialize CompositorD3D11 for SWGL: FEATURE_FAILURE_D3D11_SWAP_CHAIN
+[GFX1-]: Failed to initialize CompositorD3D11 for SWGL: FEATURE_FAILURE_D3D11_SWAP_CHAIN
+console.warn: SearchSettings: &quot;get: No settings file exists, new profile?&quot; (new NotFoundError(&quot;Could not open the file at C:\\Windows\\Temp\\rust_mozprofiles2BQPw\\search.json.mozlz4&quot;, (void 0)))
+console.warn: SearchSettings: &quot;get: No settings file exists, new profile?&quot; (new NotFoundError(&quot;Could not open the file at C:\\Windows\\Temp\\rust_mozprofilewMIDFG\\search.json.mozlz4&quot;, (void 0)))
+console.warn: SearchSettings: &quot;get: No settings file exists, new profile?&quot; (new NotFoundError(&quot;Could not open the file at C:\\Windows\\Temp\\rust_mozprofileJYxQUQ\\search.json.mozlz4&quot;, (void 0)))
+[GFX1-]: [D3D11] create swap chain failed: 0x887a0022, 0
+[GFX1-]: Failed to initialize CompositorD3D11 for SWGL: FEATURE_FAILURE_D3D11_SWAP_CHAIN
+[GFX1-]: [D3D11] create swap chain failed: 0x887a0022, 0
+[GFX1-]: Failed to initialize CompositorD3D11 for SWGL: FEATURE_FAILURE_D3D11_SWAP_CHAIN
+[GFX1-]: [D3D11] create swap chain failed: 0x887a0022, 0
+[GFX1-]: Failed to initialize CompositorD3D11 for SWGL: FEATURE_FAILURE_D3D11_SWAP_CHAIN
+1645027839116	Marionette	INFO	Listening on port 60057
+1645027839200	Marionette	INFO	Listening on port 60056
+1645027839245	Marionette	INFO	Listening on port 60058
+1645027839477	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1645027839490	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1645027839495	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+фев 16, 2022 6:10:39 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+фев 16, 2022 6:10:39 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+фев 16, 2022 6:10:39 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 console.warn: LoginRecipes: &quot;getRecipes: falling back to a synchronous message for:&quot; &quot;https://rozetka.com.ua&quot;
 JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
 JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
 JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: &quot;Invalid autocomplete selectedIndex&quot; {file: &quot;resource://gre/actors/AutoCompleteChild.jsm&quot; line: 125}]'[JavaScript Error: &quot;Invalid autocomplete selectedIndex&quot; {file: &quot;resource://gre/actors/AutoCompleteChild.jsm&quot; line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
-1644248688654	Marionette	INFO	Stopped listening on port 58616
-[Parent 18380, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
-JavaScript error: resource://devtools/client/jsonview/Sniffer.jsm, line 56: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIChannel.contentType]
-[Parent 18380, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+console.warn: LoginRecipes: &quot;getRecipes: falling back to a synchronous message for:&quot; &quot;https://rozetka.com.ua&quot;
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: &quot;Invalid autocomplete selectedIndex&quot; {file: &quot;resource://gre/actors/AutoCompleteChild.jsm&quot; line: 125}]'[JavaScript Error: &quot;Invalid autocomplete selectedIndex&quot; {file: &quot;resource://gre/actors/AutoCompleteChild.jsm&quot; line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+console.warn: LoginRecipes: &quot;getRecipes: falling back to a synchronous message for:&quot; &quot;https://rozetka.com.ua&quot;
+1645027857250	Marionette	INFO	Stopped listening on port 60058
+1645027858117	geckodriver	INFO	Listening on 127.0.0.1:19559
+1645027858609	mozrunner::runner	INFO	Running command: &quot;C:\\Program Files\\Mozilla Firefox\\firefox.exe&quot; &quot;--marionette&quot; &quot;-no-remote&quot; &quot;-profile&quot; &quot;C:\\Windows\\TEMP\\rust_mozprofileic3T0f&quot;
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: &quot;Invalid autocomplete selectedIndex&quot; {file: &quot;resource://gre/actors/AutoCompleteChild.jsm&quot; line: 125}]'[JavaScript Error: &quot;Invalid autocomplete selectedIndex&quot; {file: &quot;resource://gre/actors/AutoCompleteChild.jsm&quot; line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+1645027858950	Marionette	INFO	Marionette enabled
+[GFX1-]: RcANGLE(no compositor window)
+[GFX1-]: Failed to connect WebRenderBridgeChild.
+[GFX1-]: Fallback WR to SW-WR + D3D11
+[GFX1-]: [D3D11] create swap chain failed: 0x887a0022, 0
+[GFX1-]: Failed to initialize CompositorD3D11 for SWGL: FEATURE_FAILURE_D3D11_SWAP_CHAIN
+console.warn: SearchSettings: &quot;get: No settings file exists, new profile?&quot; (new NotFoundError(&quot;Could not open the file at C:\\Windows\\Temp\\rust_mozprofileic3T0f\\search.json.mozlz4&quot;, (void 0)))
+[GFX1-]: [D3D11] create swap chain failed: 0x887a0022, 0
+[GFX1-]: Failed to initialize CompositorD3D11 for SWGL: FEATURE_FAILURE_D3D11_SWAP_CHAIN
+1645027860435	Marionette	INFO	Listening on port 60593
+1645027860656	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+фев 16, 2022 6:11:00 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+1645027860852	Marionette	INFO	Stopped listening on port 60056
+1645027861607	geckodriver	INFO	Listening on 127.0.0.1:41299
+1645027862100	mozrunner::runner	INFO	Running command: &quot;C:\\Program Files\\Mozilla Firefox\\firefox.exe&quot; &quot;--marionette&quot; &quot;-no-remote&quot; &quot;-profile&quot; &quot;C:\\Windows\\TEMP\\rust_mozprofile12yp6N&quot;
+1645027862423	Marionette	INFO	Marionette enabled
+console.warn: LoginRecipes: &quot;getRecipes: falling back to a synchronous message for:&quot; &quot;https://rozetka.com.ua&quot;
+[GFX1-]: RcANGLE(no compositor window)
+[GFX1-]: Failed to connect WebRenderBridgeChild.
+[GFX1-]: Fallback WR to SW-WR + D3D11
+[GFX1-]: [D3D11] create swap chain failed: 0x887a0022, 0
+[GFX1-]: Failed to initialize CompositorD3D11 for SWGL: FEATURE_FAILURE_D3D11_SWAP_CHAIN
+console.warn: SearchSettings: &quot;get: No settings file exists, new profile?&quot; (new NotFoundError(&quot;Could not open the file at C:\\Windows\\Temp\\rust_mozprofile12yp6N\\search.json.mozlz4&quot;, (void 0)))
+[GFX1-]: [D3D11] create swap chain failed: 0x887a0022, 0
+[GFX1-]: Failed to initialize CompositorD3D11 for SWGL: FEATURE_FAILURE_D3D11_SWAP_CHAIN
+1645027863781	Marionette	INFO	Listening on port 60694
+1645027864158	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+фев 16, 2022 6:11:04 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+1645027864913	Marionette	INFO	Stopped listening on port 60057
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+console.warn: LoginRecipes: &quot;getRecipes: falling back to a synchronous message for:&quot; &quot;https://rozetka.com.ua&quot;
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: &quot;Invalid autocomplete selectedIndex&quot; {file: &quot;resource://gre/actors/AutoCompleteChild.jsm&quot; line: 125}]'[JavaScript Error: &quot;Invalid autocomplete selectedIndex&quot; {file: &quot;resource://gre/actors/AutoCompleteChild.jsm&quot; line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: &quot;Invalid autocomplete selectedIndex&quot; {file: &quot;resource://gre/actors/AutoCompleteChild.jsm&quot; line: 125}]'[JavaScript Error: &quot;Invalid autocomplete selectedIndex&quot; {file: &quot;resource://gre/actors/AutoCompleteChild.jsm&quot; line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+1645027873024	Marionette	INFO	Stopped listening on port 60593
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1645027874563	Marionette	INFO	Stopped listening on port 60694
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1645027875198	geckodriver	INFO	Listening on 127.0.0.1:15285
+1645027875693	mozrunner::runner	INFO	Running command: &quot;C:\\Program Files\\Mozilla Firefox\\firefox.exe&quot; &quot;--marionette&quot; &quot;-no-remote&quot; &quot;-profile&quot; &quot;C:\\Windows\\TEMP\\rust_mozprofileZB4yZl&quot;
+1645027875945	Marionette	INFO	Marionette enabled
+[GFX1-]: RcANGLE(no compositor window)
+[GFX1-]: Failed to connect WebRenderBridgeChild.
+[GFX1-]: Fallback WR to SW-WR + D3D11
+[GFX1-]: [D3D11] create swap chain failed: 0x887a0022, 0
+[GFX1-]: Failed to initialize CompositorD3D11 for SWGL: FEATURE_FAILURE_D3D11_SWAP_CHAIN
+console.warn: SearchSettings: &quot;get: No settings file exists, new profile?&quot; (new NotFoundError(&quot;Could not open the file at C:\\Windows\\Temp\\rust_mozprofileZB4yZl\\search.json.mozlz4&quot;, (void 0)))
+[GFX1-]: [D3D11] create swap chain failed: 0x887a0022, 0
+[GFX1-]: Failed to initialize CompositorD3D11 for SWGL: FEATURE_FAILURE_D3D11_SWAP_CHAIN
+1645027877007	Marionette	INFO	Listening on port 61076
+1645027877234	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+фев 16, 2022 6:11:17 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+console.warn: LoginRecipes: &quot;getRecipes: falling back to a synchronous message for:&quot; &quot;https://rozetka.com.ua&quot;
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: &quot;Invalid autocomplete selectedIndex&quot; {file: &quot;resource://gre/actors/AutoCompleteChild.jsm&quot; line: 125}]'[JavaScript Error: &quot;Invalid autocomplete selectedIndex&quot; {file: &quot;resource://gre/actors/AutoCompleteChild.jsm&quot; line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+1645027905555	Marionette	INFO	Stopped listening on port 61076
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1645027906181	geckodriver	INFO	Listening on 127.0.0.1:4395
+1645027906690	mozrunner::runner	INFO	Running command: &quot;C:\\Program Files\\Mozilla Firefox\\firefox.exe&quot; &quot;--marionette&quot; &quot;-no-remote&quot; &quot;-profile&quot; &quot;C:\\Windows\\TEMP\\rust_mozprofileWm8hSp&quot;
+1645027906934	Marionette	INFO	Marionette enabled
+[GFX1-]: RcANGLE(no compositor window)
+[GFX1-]: Failed to connect WebRenderBridgeChild.
+[GFX1-]: Fallback WR to SW-WR + D3D11
+[GFX1-]: [D3D11] create swap chain failed: 0x887a0022, 0
+[GFX1-]: Failed to initialize CompositorD3D11 for SWGL: FEATURE_FAILURE_D3D11_SWAP_CHAIN
+console.warn: SearchSettings: &quot;get: No settings file exists, new profile?&quot; (new NotFoundError(&quot;Could not open the file at C:\\Windows\\Temp\\rust_mozprofileWm8hSp\\search.json.mozlz4&quot;, (void 0)))
+[GFX1-]: [D3D11] create swap chain failed: 0x887a0022, 0
+[GFX1-]: Failed to initialize CompositorD3D11 for SWGL: FEATURE_FAILURE_D3D11_SWAP_CHAIN
+1645027908011	Marionette	INFO	Listening on port 61274
+1645027908227	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+фев 16, 2022 6:11:48 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+console.warn: LoginRecipes: &quot;getRecipes: falling back to a synchronous message for:&quot; &quot;https://rozetka.com.ua&quot;
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: &quot;Invalid autocomplete selectedIndex&quot; {file: &quot;resource://gre/actors/AutoCompleteChild.jsm&quot; line: 125}]'[JavaScript Error: &quot;Invalid autocomplete selectedIndex&quot; {file: &quot;resource://gre/actors/AutoCompleteChild.jsm&quot; line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+1645027917562	Marionette	INFO	Stopped listening on port 61274
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
 </pre>
 </span>
 </div>
@@ -136,7 +383,7 @@ JavaScript error: resource://devtools/client/jsonview/Sniffer.jsm, line 56: NS_E
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 6.8</a> at 07.02.2022 17:44:50</p>
+<a href="http://www.gradle.org">Gradle 6.8</a> at 16.02.2022 18:11:58</p>
 </div>
 </div>
 </body>
